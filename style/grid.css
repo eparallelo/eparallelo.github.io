@@ -1,0 +1,134 @@
+/*
+.vertical-fix {
+    height: 300px;
+    width:300px;
+    background-color: transparent;
+    display: block;
+}
+*/
+
+.left-block {
+    float: left;
+}
+
+.center-block {
+/*    margin:0 auto;*/
+}
+
+.right-block {
+/*    float: right;*/
+float:left;
+}
+
+
+.game-master {
+    
+}
+
+.vertical-games {
+    
+}
+
+.vertical-grid {
+    
+}
+
+.vertical-one {
+    float: left;
+}
+
+.vertical-two {
+    float: left;
+}
+
+.grid-container {
+    padding:10px 10px; 
+    float: left;
+    text-align: center;
+    
+}
+
+.grid-title {
+    border:1px solid #a1a1a1;
+    padding:5px 5px; 
+    background-color: #dddddd;
+/*    width: 175px;*/
+    height: 25px;
+    border-radius:5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px; 
+}
+
+/*
+.grid-title-tic-tac-toe {
+    width: 175px;
+}
+
+.grid-title-connect-four {
+    width: 375px;
+}
+*/
+
+.grid-row {
+    text-align: center;
+}
+
+.player-one {
+/*    content:url(http://bookriotcom.c.presscdn.com/wp-content/uploads/2013/07/x.png) no-repeat center center;*/
+    content: url(http://s2.postimg.org/vzlzz6q3d/red_x.png) no-repeat center center;
+    height:100%;
+    width:100%;
+}
+
+.player-two {
+/*    content:url(http://www.iconsdb.com/icons/download/black/circle-outline-512.png) no-repeat center center;*/
+    content:url(http://s16.postimg.org/xv3bh5rcl/blue_ring.png) no-repeat center center;
+    height:100%;
+    width:100%;
+}
+
+.player-one-connect-four {
+    content:url(http://s16.postimg.org/y45hkttit/red_circle.png) no-repeat center center;
+    height:100%;
+    width:100%;
+}
+
+.player-two-connect-four {
+/*    content:url(http://s2.postimg.org/5d9ja7lw9/blue_circle.png) no-repeat center center;*/
+        content:url(http://s28.postimg.org/7cql37a31/blue_circle.png) no-repeat center center;
+    
+        
+    height:100%;
+    width:100%;
+}
+
+[class*='col-'] {
+  float: left;
+}
+.grid-cell {
+    
+    background:#dddddd;
+    border:1px solid #a1a1a1;
+    
+    padding:10px 10px; 
+    width: 35px;
+    height: 35px;
+    border-radius:10px;
+}
+/*
+
+.grid-cell-connect-four {
+    padding:10px 10px; 
+    width: 40px;
+    height: 40px;
+    border-radius:10px;
+}
+
+.grid-cell-tic-tac-toe {
+    
+    padding:25px 25px; 
+    width: 75px;
+    height: 75px;
+    border-radius:25px;
+}*/
